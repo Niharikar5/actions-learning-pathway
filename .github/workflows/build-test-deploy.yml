@@ -11,7 +11,8 @@ jobs:
         with: 
           node-version: '18.x'
       - run: npm install
-      - run: nmp run build
+      - run: npm run build
+
         
       
 
